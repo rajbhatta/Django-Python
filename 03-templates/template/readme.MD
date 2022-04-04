@@ -1,4 +1,4 @@
-# How to perform rendering #
+# How to perform rendering ? #
 
 ## Creates templates directory inside blog folder ##
 - Django searches for templates directory with same name as our app. blog in our case. Thus, let us create templates/blog.
@@ -35,7 +35,7 @@ def home(request):
     return render(request, 'blog/home.html')
 ```
 
-# Adding config in setting #
+# Before adding template config in setting #
 ```python
 """
 Django settings for template project.
@@ -165,7 +165,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ```
 
 
-## Once configuration is added ##
+## After adding template configuration in settings ##
 ```python
 """
 Django settings for template project.
