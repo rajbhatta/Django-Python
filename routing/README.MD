@@ -104,3 +104,22 @@ urlpatterns = [
 ]
 
 ```
+
+# How path('blog/',include('blog.url')) is processed #
+- when /blog then first it looks at url.py in the main package
+- when /blog is consumed then it check the remaning. In our case there is no remaining part after blog. Thus empty string is going to send to blog.url
+- Since, we do have only empty string
+
+```python
+
+from django.contrib import admin
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    # path('', view, function_name)
+    path('', views.home, name='blog-home'),
+
+]
+
+```
