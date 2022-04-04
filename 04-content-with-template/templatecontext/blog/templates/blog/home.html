@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>This is main title</title>
+</head>
+<body>
+    {% for post in posts %}
+        <h1>{{ post.author }}</h1>
+        <h2>{{ post.title }}</h2>
+        <h3>{{ post.content }}</h3>
+        <h4>{{ post.data_posted }}</h4>
+    {% endfor %}
+</body>
+</html>
