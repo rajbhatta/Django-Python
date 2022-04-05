@@ -79,3 +79,4 @@ python manage.py shell
 
 # Import post model and user by typing in console like #
 <img src="1.png"/>
+
