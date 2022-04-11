@@ -1,5 +1,5 @@
 # What are included #
-1. Getting started <a href="01-getting-started/README.MD"> Getting Started </a>
+1. Getting started <a href="01-getting-started/gettingstarted/README.MD"> Getting Started </a>
 2. Routing <a href="02-routing/README.MD"> Routing </a>
 3. Templates <a href="03-templates/README.MD"> Templates </a>
 4. Contents with templates <a href="04-content-with-template/README.MD"> Contents with template </a>
